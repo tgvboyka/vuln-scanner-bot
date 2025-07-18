@@ -24,5 +24,6 @@ def crawl_site(start_url):
             pass
 
 if __name__ == "__main__":
-    target = input("أدخل رابط الموقع المستهدف: ")
+    # ✅ ضع هنا الرابط المستهدف مباشرة
+    target = "https://testphp.vulnweb.com"
     crawl_site(target)
